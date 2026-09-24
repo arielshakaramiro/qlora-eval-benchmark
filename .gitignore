@@ -1,0 +1,17 @@
+# Python
+__pycache__/
+*.pyc
+.ipynb_checkpoints/
+
+# Model weights and adapters (large binary files, not tracked)
+*.safetensors
+*.bin
+adapter-*/
+qlora-tmp/
+
+# Environment / secrets
+.env
+*.env
+
+# OS
+.DS_Store
